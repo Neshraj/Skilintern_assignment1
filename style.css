@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#head1{
+    background: linear-gradient(to bottom ,rgb(3, 158, 197) ,rgb(2, 131, 163));
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    box-shadow: inset 0px 0px 10px 1px #0000001d;
+    
+}
+
+
+
+#head2{
+    background-color: rgb(22, 148, 179);
+    width: 90vw;
+    height: 80px;
+    margin: auto;
+    border: 1px solid rgb(14, 183, 221);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px #0000003e;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.haed2_text{
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 2px 2px #000000;
+}
+
+.haed2_text:nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    width: 350px;
+    margin-top: -10px;
+}
+
+#head2_buttons_div{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head2_buttons{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px 1px #00000023;
+    text-shadow: 1px 2px 2px #00000058;
+}
+
+
+.head2_buttons:nth-child(1){
+    background-color: rgb(0,120,151);
+}
+
+.head2_buttons:hover{
+    background-color: rgb(0,120,151);
+}
+
+.head2_buttons:active{
+    background-color: rgb(10, 92, 113);
+}
+
+#head3{
+    background-image: url('./assets/bigbackground.png');
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 10px 1px #00000032;
+}
+
+#head4{
+    background-image: url('./assets/smallbackground.jpg');
+    width: 85vw;
+    height: 300px;
+    border: 20px solid rgb(255,255,255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 1px #00000032;
+}
+
+#head4_text{
+    color: rgb(252,253,252);
+}
+
+#head4_text h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#head4_text h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+#maindiv1{
+    column-count: 3;
+    margin: 10px;
+}
+
+
+#maindiv1 h2{
+    color: rgb(0,120,151);
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+#maindiv1 h2:hover{
+    color: rgb(0, 73, 91);
+}
+
+#maindiv1 p{
+    color: rgb(135,142,131);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+}
+
+#maindiv1 h4{
+    color: rgb(40, 49, 33);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#maincolumn1,#maincolumn2,#maincolumn3{
+    break-inside:avoid-column;
+
+}
+
+#maincolumn1 p,#maincolumn2 p,#maincolumn3 p{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#maincolumn1 p:hover,#maincolumn2 p:hover,#maincolumn3 p:hover{
+    background-color: #00000021;
+}
+
+p:hover{
+    background-color: #00000021;
+}
+
+
+#maincolumn1_button,#lastbtn,#lastbtn2{
+    background-color: rgb(0,134,166);
+    color: rgb(255,236,220);
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    font-size:large;
+    font-weight: 500;
+    border: 1px solid #4e4e4e;
+    box-shadow: 0px 0px 10px 1px #0000004d;
+    margin-top: 30px;
+    outline: 1px solid rgb(71, 218, 255);
+    cursor: pointer;
+}
+
+#maincolumn1_button:hover,#lastbtn:hover,#lastbtn2:hover{
+    background-color: rgb(0, 84, 105);
+}
+
+#maincolumn1 p a{
+    color: rgb(93,161,195);
+}
+
+#maincolumn1 p b{
+    color:rgb(40, 49, 33);
+    font-weight: 500;
+}
+
+#maincolumn2 p{
+   margin-bottom: 20px;
+}
+
+.floatimg{
+    float: left;
+    margin-right: 40px;
+    box-shadow: 0px 0px 10px 1px hsla(0, 0%, 0%, 0.228);
+    border-radius: 2px;
+    
+}
+
+#maincolumn3 ul{
+    column-count: 2;
+}
+
+#maincolumn3 ul li{
+    color: rgb(93,161,195);
+    list-style: none;
+    font-size:15px;
+    font-weight: 100;
+    border-bottom: 1px solid #b5b5b5;
+    line-height: 50px;
+    
+}
+
+a{
+    text-decoration-color: rgb(93,147,162);
+}
+
+#maincolumn3 ul a:hover{
+    text-decoration: none !important;
+}
+
+.bottomli{
+    border-bottom: 0px !important;
+}
+
+
+
+
+
+#maindiv2{
+    column-count: 2;
+}
+
+#m2div1{
+    break-inside: avoid-column;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+
+#m2div1 h2{
+    color: rgb(0,120,151);
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+
+#m2div1 p{
+    color: rgb(135,142,131);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+}
+
+.flotleft{
+    float: left;
+    margin: 10px;
+    left: 0px;
+    margin-right: 30px;
+}
+
+#m2div1fl1,#m2div1fl2,#m2div1fl3{
+    margin-top: 20px;
+}
+
+#m2div2{
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#m2div2 h2{
+    color: rgb(0,120,151);
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#m2div2 a{
+    color: rgb(0,120,151);
+}
+
+#m2headdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#m2headdiv a{
+    display: flex;
+    margin-top: 15px;
+}
+
+#m2headdiv a::before{
+    content: url('./assets/commandicon.png');
+}
+
+#m2div2 h4,#m2div1 h4{
+    color: rgb(40, 49, 33);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#m2div2 h4{
+    margin-top: 40px;
+}
+
+#m2div2 p{
+    margin-top: 20px;
+    color: rgb(135,142,131);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+}
+
+
+#m2headdiv a:hover{
+    text-decoration: none;
+    
+}
+
+
+footer{
+    background-color: rgb(227,233,220);
+}
+
+#foot1{
+    column-count: 5;
+    padding: 0px 50px 50px 50px;
+    margin-bottom: 30px;
+
+}
+
+#foot1 h2{
+    color: rgb(0,120,151);
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+
+
+.foot1ft{
+    break-inside:avoid-column;
+}
+
+.foot1ft ul li{
+    list-style-type: none;
+    color: rgb(93,161,195);
+    list-style: none;
+    font-size:15px;
+    font-weight: 100;
+    border-bottom: 1px solid #b5b5b5;
+    line-height: 60px;
+
+
+}
+
+.foot1ft ul a:hover{
+    text-decoration: none !important;
+}
+
+
+
+#foot1flt5 p{
+    margin-top: 20px;
+    color: rgb(135,142,131);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+}
+
+#foothed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 20px;
+    height: 50px;
+
+}
+
+#foothed h2{
+    color: rgb(0,120,151);
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+
+#foothed h2:nth-child(1){
+    margin-left: 30px;
+}
+
+#foothed h2:nth-child(2){
+    margin-right: 10px;
+}
+
+hr{
+    margin: 0px 50px 0px 50px;
+}
+
+#footdet{
+    padding: 80px;
+}
+
+#footdet p{
+    text-align: center;
+    color: rgb(135,142,131);
+    font-size: 18px;
+    font-weight: 400;
+
+}
